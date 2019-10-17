@@ -1,0 +1,229 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+  
+  background-repeat: no-repeat;
+  background-color: #83BBDB;
+  font-family: sans-serif;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  font-size: 50px;
+  line-height: 1;
+  padding: 50px 0;
+  text-align: center;
+}
+
+h2{
+  font-size: 32px;
+  line-height: 1.5;
+}
+
+nav ul{
+  list-style-type: none;
+}
+
+nav li{
+  display: inline-block;
+  padding-right: 20px;
+}
+
+nav a{
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav a:hover{
+  text-decoration: underline;
+}
+
+.skip a{
+  background: white;
+  left: 0;
+  padding: 6px;
+  position: absolute;
+  top: -40px;
+  -webkit-transition: top 1s ease-out;
+  transition: top 1s ease-out;
+  z-index: 1;
+}
+
+.skip a:focus{
+  postion: absolute;
+  top: 0px;
+  transition: auto;
+}
+
+*:focus{
+  border: 2px solid black;
+}
+
+
+footer{
+  background-color: black;
+  color: white;
+  grid-column: 1 / -1;
+  grid-row: 7 / auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.nav{
+   text-align: left;
+   align-self: center;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   grid-column-start: 1;
+   grid-column-end: -1;
+   grid-row-start: 1;
+   grid-row-end: span 1;
+
+  background-color: #83BBDB;
+  padding: 20px 0;
+}
+
+header{
+  background-attachment: fixed; /* Parallax effect */
+  background-image: url("../images/home.jpg");
+  background-position: center;  /* Parallax effect */
+  background-repeat: no-repeat; /* Parallax effect */
+  background-size: cover;       /* Parallax effect */
+  color: white;
+  height: 800px;                /* Parallax effect */
+
+  grid-column-start: 1;
+  grid-column-end: -1;
+  grid-row-start: 2;
+  grid-row-end: span 1;
+}
+
+header p{
+  color: white;
+  font-size: 24px;
+  padding: 0 100px;
+  text-align: center;
+}
+
+.about-image{
+  max-height: 700px;
+  overflow: hidden;
+
+}
+
+.about{
+
+}
+
+.projects-image{
+  max-height: 700px;
+  overflow: hidden;
+}
+
+.projects{
+
+}
+
+.gallery-image{
+  max-height: 700px;
+  overflow: hidden;
+}
+
+.gallery{
+
+}
+
+.contact-image{
+  max-height: 700px;
+  overflow: hidden;
+}
+
+.contact{
+
+}
+
+.text-block{
+  align-self: center;
+  justify-self: center;
+  background-color: rgba(255, 255, 255, .8);
+  border: 10px solid black;
+  padding: 30px;
+}
+
+
+
+@media screen and (min-width: 800px){
+
+  .nav{
+    background-color: #83BBDB;
+    text-align: center;
+    align-self: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+
+  .about-image{
+    max-height: 700px;
+    overflow: hidden;
+  }
+
+  .about{
+
+  }
+
+  .projects-image{
+    max-height: 700px;
+    overflow: hidden;
+  }
+
+  .projects{
+
+  }
+
+  .gallery-image{
+    max-height: 700px;
+    overflow: hidden;
+
+  }
+
+  .gallery{
+
+  }
+
+  .contact-image{
+    max-height: 700px;
+    overflow: hidden;
+  }
+
+  .contact{
+
+   }
+
+}
+
+@media screen and (prefers-reduced-motion: reduce){
+  html{
+      scroll-behavior: initial;
+  }
+
+  .skip a{
+    background: white;
+    left: 0;
+    padding: 6px;
+    position: absolute;
+    top: -40px;
+    -webkit-transition: top 1s auto;
+    transition: top 1s auto;
+    z-index: 1;
+  }
+
+  .skip a:focus{
+    top:0;
+  }
+}
