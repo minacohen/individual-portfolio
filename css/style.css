@@ -6,7 +6,7 @@ body{
   background-repeat: no-repeat;
   background-color: #4f9dc9;
   font-family: 'Roboto';
-  font-size: 18px;
+  font-size: 20px;
   margin: 0;
   padding: 0;
 }
@@ -472,12 +472,13 @@ header p{
 
   .gallery-image img{
     display: grid;
+    width: 800px;
   }
 
   .contact{
     grid-column-start: 2;
     grid-column-end: span 2;
-    grid-row-start: 6;
+    grid-row-start: 2;
     grid-row-end: span 1;
    }
 
@@ -488,7 +489,7 @@ header p{
    }
 
    .contact-image img {
-     width: 400px;
+     width: 775px;
      align-items: center;
      justify-content: center;
    }
