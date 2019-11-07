@@ -4,7 +4,7 @@ html{
 
 body{
   background-repeat: no-repeat;
-  background-color: #83BBDB;
+  background-color: #4f9dc9;
   font-family: 'Roboto';
   font-size: 18px;
   margin: 0;
@@ -80,7 +80,7 @@ nav a:hover{
 }
 
 footer{
-  background-color: #83BBDB;
+  background-color: #4f9dc9;
   color: #FEFEFE;
   grid-column: 1 / -1;
   grid-row: 10 / auto;
@@ -107,7 +107,7 @@ footer{
    grid-row-start: 1;
    grid-row-end: span 1;
 
-  background-color: #83BBDB;
+  background-color: #4f9dc9;
   padding: 20px 0;
 }
 
@@ -270,7 +270,7 @@ header p{
   }
 
   .nav{
-    background-color: #83BBDB;
+    background-color: #4f9dc9;
     text-align: center;
     align-self: center;
     padding-top: 35px;
@@ -408,7 +408,7 @@ header p{
   }
 
   .nav{
-    background-color: #83BBDB;
+    background-color: #4f9dc9;
     text-align: center;
     align-self: center;
     padding-top: 35px;
